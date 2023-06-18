@@ -1,0 +1,13 @@
+Rewrite the 2nd task (csv parsing) using worker threads.
+It would be pretty easy for you once you have implemented
+ it with clusters.
+For this task, however, consider the following differences:
+The number of workers should not be greater than 10,
+Try restructuring your code (switch to OOP or functional 
+if the other was used for the previous task).
+Keep using promises (practice promisification).
+Please, note that the students who did not submit the
+2nd task or implemented it incorrectly should submit
+it along with this task.
+
+Good luck!
