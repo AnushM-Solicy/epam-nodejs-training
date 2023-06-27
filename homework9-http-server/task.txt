@@ -1,0 +1,9 @@
+Extend your existing CSV to JSON converter script to create an HTTP server using the 'http' module. The server should listen on a specific port for incoming HTTP requests. Implement the following routes to handle CRUD operations:
+Route 1: POST '/exports': Convert and save all the CSV files in the given directory (get directory path from request body).
+Route 2: GET '/files': Retrieve a list of all available converted JSON files.
+Route 3: GET '/files/:filename': Retrieve a specific JSON data by its filename.
+Route 4: DELETE '/files/:filename': Delete a specific JSON file by its filename.
+Important to note!
+Handle any errors gracefully and provide appropriate error messages if necessary.
+Test your server by sending HTTP requests to the defined routes using a tool like cURL or a web browser or Postman.
+Keep your code structured and clean.
